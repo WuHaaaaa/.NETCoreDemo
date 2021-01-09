@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\protos/Message.cs \
+obj\Debug\netcoreapp3.1\protos/MessageGrpc.cs: protos/Message.proto
