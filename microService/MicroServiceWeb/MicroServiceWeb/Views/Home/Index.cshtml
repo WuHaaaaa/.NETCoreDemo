@@ -1,0 +1,15 @@
+﻿@{
+    var list = ViewBag.list;
+}
+
+
+<table>
+    @foreach (var item in list)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Port</td>
+        </tr>
+    }
+    
+</table>
